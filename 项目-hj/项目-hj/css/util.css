@@ -1,0 +1,25 @@
+.first {
+    margin-top: 20px;
+}
+.container .panel {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.container .panel-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container .pagination {
+    float: right;
+}
+.container .content{
+    font-size: 16px;
+}
+.container .imgstyle{
+    margin-bottom: 0;
+    border-radius: 10;
+}
+.tablestyle  a {
+    float: right;
+}

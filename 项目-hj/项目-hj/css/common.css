@@ -1,0 +1,109 @@
+/* 公共样式 */
+body {
+    background-color:#f5f6f7!important;
+}
+textarea {
+    resize:none;
+}
+a {
+    text-decoration: none!important;
+}
+ul li {
+    list-style: none;
+    
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.container hr {
+    border-top: 2px solid #e6e1e1;
+}
+/* login-indexd的img */
+
+.head img {
+    width: 50px;
+    height: 100%;
+}
+
+
+/* 头部 */
+@media screen and (max-width:1280px){
+    .container-fluid>.navbar-collapse {
+        display: none!important;
+    }
+}
+
+
+
+.navbar {
+    border-radius: 0!important;
+    margin-bottom: 0!important;
+}
+
+.navbar-brand {
+    padding: 0!important;
+    margin-left: 10px!important;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100%!important;
+}
+.navbar-collapse ul {
+    margin-left: 55px;
+}
+
+.navbar-collapse ul li {
+    margin-right: 45px;
+}
+
+
+/* 尾部 */
+footer {
+    /* height: 180px; */
+    margin-top: 30px;
+    background-color: #000;
+    /* padding-top: 30px; */
+}
+footer .center {
+    width: 900px;
+    height: 100%;
+    /* background-color: #fff; */
+    background-color: #000;
+    margin: 0 auto;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+footer  h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+footer ul {
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
+footer ul li {
+    float: left;
+    text-align: center;
+    padding: 0;
+    /* width: 60px;
+     */
+     /* width: 284px; */
+    /* margin-left: 80px; */
+    /* margin-right: 117px; */
+    /* padding-left: 98px; */
+   
+}
+footer ul li a {
+    color:  #929292;
+}
+footer p {
+    margin-top: 32px;
+    text-align: center;
+    color:  #929292;
+    font-weight: bold;
+}
